@@ -6,9 +6,9 @@ void reverse(char s[]);
 
 int main()
 {
-	char s[2048];
+	char s[5];
 
-	itob(10, s, 16);
+	itob(31, s, 32);
 	printf("%s\n", s);
 }
 
